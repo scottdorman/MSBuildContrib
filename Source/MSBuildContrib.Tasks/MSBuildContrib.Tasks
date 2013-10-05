@@ -1,0 +1,20 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <!-- NOTE: Listing a <UsingTask> tag in a *.tasks file like this one rather than in a project or targets file
+              can give a significant performance advantage in a large build, because every time a <UsingTask> tag
+              is encountered, it will cause the task to be rediscovered next time the task is used. -->
+   <!-- NOTE: Using the fully qualified class name in a <UsingTask> tag is faster than using a partially qualified name. -->
+   <PropertyGroup>
+      <MSBuildContribCommonTasksAssembly>$(MSBuildExtensionsPath)\MSBuildContrib\MSBuildContrib.Tasks.dll</MSBuildContribCommonTasksAssembly>
+   </PropertyGroup>
+
+   <UsingTask TaskName="MSBuildContrib.Tasks.Attrib" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.Checksum" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.CodeStats" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.Concat" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.CreateItemRegex" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.FxCop" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.GacUtil" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.GetEnvironment" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.Grep" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+   <UsingTask TaskName="MSBuildContrib.Tasks.Move" AssemblyFile="$(MSBuildContribCommonTasksAssembly)" Condition="Exists('$(MSBuildContribCommonTasksAssembly)')" />
+</Project>

@@ -1,0 +1,8 @@
+To install:
+
+1. Create a folder named MSBuildContrib under the %ProgramFiles%\MSBuild folder.
+2. Extract the contents of the zip file to this folder. 
+
+You should end up with all of the files in the zip file located in the %ProgramFiles%\MSBuild\MSBuildContrib folder. 
+
+The %ProgramFiles% folder is typically C:\Program Files.

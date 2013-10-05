@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Attrib_Comment" xml:space="preserve">
+    <value>Attributes for "{1}" changed to [{0}].</value>
+  </data>
+  <data name="Attrib_Error" xml:space="preserve">
+    <value>MSBC3001: Unable to change attributes for file "{0}". {1}</value>
+  </data>
+  <data name="CheckDiskspace_DriveNotReadyError" xml:space="preserve">
+    <value>MSBC3261: Drive {0} is not ready.</value>
+  </data>
+  <data name="CheckDiskspace_LowDiskspaceCriticalMesssage" xml:space="preserve">
+    <value>MSBC3263: Drive {0} is running critically low on disk space. The available disk space is {1:D}GB.</value>
+  </data>
+  <data name="CheckDiskspace_LowDiskspaceMesssage" xml:space="preserve">
+    <value>MSBC3262: Drive {0} is running low on disk space. The available disk space is {1:D}GB.</value>
+  </data>
+  <data name="CheckDiskspace_Message" xml:space="preserve">
+    <value>{0} Free Bytes Available: {1:D}GB, Total Number Of Bytes: {2:D}GB, Total Number Of FreeBytes: {3:D}GB.</value>
+  </data>
+  <data name="Checksum_Error" xml:space="preserve">
+    <value>MSBC3011: Unable to calculate checksum for file "{0}". {1}</value>
+  </data>
+  <data name="CodeStats_Error" xml:space="preserve">
+    <value>MSBC3021: Failed to generate code statistics. {0}</value>
+  </data>
+  <data name="CodeStats_FileInfo" xml:space="preserve">
+    <value>Totals:  [{0}] [T] {1} [C] {2} [E] {3}</value>
+  </data>
+  <data name="CodeStats_Summary" xml:space="preserve">
+    <value>{0} Totals:  [T] {1} [C] {2}  [E] {3}</value>
+  </data>
+  <data name="CommandLineSwitchError" xml:space="preserve">
+    <value>Invalid settings passed to CodeAnalysis task. See output window for details.</value>
+  </data>
+  <data name="Concat_Error" xml:space="preserve">
+    <value>MSBC3031: Unable to concatenate file "{0}" to "{1}". {2}</value>
+  </data>
+  <data name="Concat_FailedToCreateOutputFile" xml:space="preserve">
+    <value>MSBC3032: Unable to create output file "{0}". {1}</value>
+  </data>
+  <data name="CreateItemRegex_InvalidPattern" xml:space="preserve">
+    <value>MSBC3041: Invalid value "{0}" for "pattern" attribute.</value>
+  </data>
+  <data name="CreateItemRegex_Message" xml:space="preserve">
+    <value>Setting metadata item '{0}' to '{1}'.</value>
+  </data>
+  <data name="CreateItemRegex_NoMatchFound" xml:space="preserve">
+    <value>MSBC3042: No match found for expression '{0}' in '{1}'. {2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File {0} was not found. Skipping this file.</value>
+  </data>
+  <data name="FxCop_AnalysisComplete" xml:space="preserve">
+    <value>Code Analysis Complete -- {0} error(s), {1} warning(s)</value>
+  </data>
+  <data name="FxCop_FailedReadingReport" xml:space="preserve">
+    <value>Unable to read output report: {0}</value>
+  </data>
+  <data name="FxCop_FailedToLocate" xml:space="preserve">
+    <value>MSBC3051: Unable to locate Microsoft FxCop to perform Code Analysis on managed binaries.</value>
+  </data>
+  <data name="FxCop_OutputError" xml:space="preserve">
+    <value>Unable to read Code Analysis output report. Make sure that the directory is writable (default is the project output directory).</value>
+  </data>
+  <data name="FxCop_PerformingCodeAnalysis" xml:space="preserve">
+    <value>Running Code Analysis...</value>
+  </data>
+  <data name="FxCop_RuleError" xml:space="preserve">
+    <value>{0} : Rule={1}#{2}, Target={3} : {4}</value>
+  </data>
+  <data name="FxCop_UnknownError" xml:space="preserve">
+    <value>An unknown error occurred running Code Analysis. Please contact Microsoft Product Support Services.</value>
+  </data>
+  <data name="GacUtil_BadImage" xml:space="preserve">
+    <value>MSBC3064: Cannot unregister assembly "{0}" - not a valid image. {1}</value>
+  </data>
+  <data name="GacUtil_Error" xml:space="preserve">
+    <value>MSBC3065: Cannot {0} assembly "{1}". {2}</value>
+  </data>
+  <data name="GacUtil_GeneralError" xml:space="preserve">
+    <value>MSBC3065: Cannot {0} assemblies. {1}</value>
+  </data>
+  <data name="GacUtil_GeneralIoException" xml:space="preserve">
+    <value>MSBC3063: Could not load assembly "{0}". {1}</value>
+  </data>
+  <data name="GacUtil_UnregisterAsmFailedToLoadAssembly" xml:space="preserve">
+    <value>MSBC3062: Cannot unregister assembly "{0}" - cannot load file. {1}</value>
+  </data>
+  <data name="GacUtil_UnregisterAsmFileDoesNotExist" xml:space="preserve">
+    <value>MSBC3061: Cannot unregister assembly "{0}" - file doesn't exist. {1}</value>
+  </data>
+  <data name="General_FailedCreatingTempFile" xml:space="preserve">
+    <value>MSBC3997: Failed to create temporary file. {0}</value>
+  </data>
+  <data name="General_FailedCreatingTempFileNamed" xml:space="preserve">
+    <value>MSBC3996: Failed to create temporary file '{0}'. {1}</value>
+  </data>
+  <data name="General_FailedDeletingTempFile" xml:space="preserve">
+    <value>MSBC3998: Failed to delete temporary file '{0}'. {1}</value>
+  </data>
+  <data name="General_TextFilesNotSupportedExcpetion" xml:space="preserve">
+    <value>MSBC3995:General text files are not supported. ({0})</value>
+  </data>
+  <data name="General_TwoVectorsMustHaveSameLength" xml:space="preserve">
+    <value>MSBC3994: "{2}" refers to {0} item(s), and "{3}" refers to {1} item(s). They must have the same number of items.</value>
+  </data>
+  <data name="GetEnvironment_Error" xml:space="preserve">
+    <value>MSBC3071: Unable to retrieve environment information. {0}</value>
+  </data>
+  <data name="Grep_Error" xml:space="preserve">
+    <value>MSBC3081: Unable to search files. {0}</value>
+  </data>
+  <data name="Grep_OutputFile" xml:space="preserve">
+    <value>Writing matches to '{0}'.</value>
+  </data>
+  <data name="Help_FxCop_FailedToLocate" xml:space="preserve">
+    <value>For more information on FxCop, including where to download the latest version, please go to http://blogs.msdn.com/fxcop/.</value>
+  </data>
+  <data name="Move_CreatesDirectory" xml:space="preserve">
+    <value>Creating directory "{0}".</value>
+  </data>
+  <data name="Move_DestinationIsDirectory" xml:space="preserve">
+    <value>MSBC3114: Could not move the file "{0}" to the destination file "{1}", because the destination is a folder instead of a file. To move the source file into a folder, consider using the DestinationFolder parameter instead of DestinationFiles.</value>
+  </data>
+  <data name="Move_DidNotMoveBecauseOfFileMatch" xml:space="preserve">
+    <value>Did not move from file "{0}" to file "{1}" because the "{2}" parameter was set to "{3}" in the project and the files' sizes and timestamps match.</value>
+  </data>
+  <data name="Move_Error" xml:space="preserve">
+    <value>MSBC3111: Unable to move file "{0}" to "{1}". {2}</value>
+  </data>
+  <data name="Move_ExactlyOneTypeOfDestination" xml:space="preserve">
+    <value>MSBC3112: Both "{0}" and "{1}" were specified as input parameters in the project file. Please choose one or the other.</value>
+  </data>
+  <data name="Move_FileComment" xml:space="preserve">
+    <value>Moving file from "{0}" to "{1}".</value>
+  </data>
+  <data name="Move_NeedsDestination" xml:space="preserve">
+    <value>MSBC3113: No destination specified for Move. Please supply either "{0}" or "{1}".</value>
+  </data>
+  <data name="Move_RemovingExistingFile" xml:space="preserve">
+    <value>Removing existing file "{0}".</value>
+  </data>
+  <data name="Move_RemovingReadOnlyAttribute" xml:space="preserve">
+    <value>Removing read-only attribute from "{0}".</value>
+  </data>
+  <data name="Move_SourceIsDirectory" xml:space="preserve">
+    <value>MSBC3115: The source file "{0}" is actually a directory.  The "Move" task does not support copying directories.</value>
+  </data>
+</root>
