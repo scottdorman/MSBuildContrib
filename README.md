@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/lx7xgx0sx152177n)](https://ci.appveyor.com/project/scottdorman/msbuildcontrib)
+
 MSBuildContrib
 ==============
 
