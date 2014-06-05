@@ -1,24 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/lx7xgx0sx152177n)](https://ci.appveyor.com/project/scottdorman/msbuildcontrib)
-
-MSBuildContrib
-==============
-
-MSBuildContrib is a project for tasks and tools that aren't part of the main MSBuild release. 
-
-## What is MSBuild?
-The Microsoft Build Engine is a platform for building applications. This engine, which is also
-known as MSBuild, provides an XML schema for a project file that controls how the build platform
-processes and builds software. Visual Studio uses MSBuild, but it doesn't depend on Visual Studio. 
-By invoking msbuild.exe on your project or solution file, you can orchestrate and build products
-in environments where Visual Studio isn't installed.
-
-Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio
-(.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that executes when you build a 
-project by using the IDE. Visual Studio projects import all the necessary settings and build 
-processes to do typical development work, but you can extend or modify them from within Visual
-Studio or by using an XML editor.
-
-You can get more information about MSBuild from the [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/dd393574.aspx).
+# MSBuildContrib [![Build status](https://ci.appveyor.com/api/projects/status/lx7xgx0sx152177n)](https://ci.appveyor.com/project/scottdorman/msbuildcontrib)
 
 ## What is MSBuildContrib?
 While MSBuild is a fairly complete platform, there are always tasks and tools that are available
@@ -46,7 +26,23 @@ _Full task documentation will be coming soon._
 <tr><td> Move </td><td> Moves a file or set of files to a new file or directory. </td><td> </td></tr>
 <tr><td> UpdateItemMetadata </td><td> Adds or updates metadata to an item. </td><td> </td></tr></table>
 
-### Contributing
+
+### What is MSBuild?
+The Microsoft Build Engine is a platform for building applications. This engine, which is also
+known as MSBuild, provides an XML schema for a project file that controls how the build platform
+processes and builds software. Visual Studio uses MSBuild, but it doesn't depend on Visual Studio. 
+By invoking msbuild.exe on your project or solution file, you can orchestrate and build products
+in environments where Visual Studio isn't installed.
+
+Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio
+(.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that executes when you build a 
+project by using the IDE. Visual Studio projects import all the necessary settings and build 
+processes to do typical development work, but you can extend or modify them from within Visual
+Studio or by using an XML editor.
+
+You can get more information about MSBuild from the [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/dd393574.aspx).
+
+## Contributing
 If you don't see a task here, feel free to open an issue or fork this repository, add it, and then submit a pull request. _More detailed instructions on how to contribute will be coming soon._
 
 ## Bugs and feature requests
